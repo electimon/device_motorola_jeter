@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbson \
     Snap \
+    libstdc++.vendor \
     libwui
 
 PRODUCT_PACKAGES += \

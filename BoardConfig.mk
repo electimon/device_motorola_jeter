@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/motorola/hannah
+DEVICE_PATH := device/motorola/jeter
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := hannah,hannah_t,ahannah,rhannah
+TARGET_OTA_ASSERT_DEVICE := jeter,aljeter
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8937
@@ -16,6 +16,9 @@ TARGET_NO_BOOTLOADER := true
 # Platform
 TARGET_BOARD_PLATFORM := msm8937
 TARGET_BOARD_SUFFIX := _64
+
+# Workarounds
+BUILD_BROKEN_DUP_RULES := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -137,8 +140,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := hannah_defconfig
-TARGET_KERNEL_SOURCE := kernel/motorola/msm8937
+TARGET_KERNEL_CONFIG := jeter_defconfig
+TARGET_KERNEL_SOURCE := kernel/motorola/jeter
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
@@ -189,6 +192,9 @@ VENDOR_SECURITY_PATCH := 2019-03-01
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Treble
+BOARD_VNDK_VERSION := current
+
 # Thermal
 USE_DEVICE_SPECIFIC_THERMAL := true
 
@@ -215,4 +221,4 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/motorola/hannah/BoardConfigVendor.mk
+-include vendor/motorola/jeter/BoardConfigVendor.mk

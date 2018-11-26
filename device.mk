@@ -288,7 +288,9 @@ PRODUCT_ODM_PROPERTIES += \
 PRODUCT_PACKAGES += \
     librmnetctl \
     libsensorndkbridge \
-    libxml2
+    libxml2 \
+    qti-telephony-hidl-wrapper \
+    qti_telephony_hidl_wrapper.xml
 
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \

@@ -12,6 +12,9 @@ DEVICE_PATH := device/motorola/hannah
 # Assert
 TARGET_OTA_ASSERT_DEVICE := hannah,hannah_t,ahannah,rhannah
 
+# Display
+TARGET_SCREEN_DENSITY := 320
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 

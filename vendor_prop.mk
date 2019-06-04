@@ -81,7 +81,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.fm.transmitter=false \
-    ro.vendor.fm.use_audio_session=true
+    ro.vendor.fm.use_audio_session=true \
+    vendor.bluetooth.soc=smd
 
 # GPU
 PRODUCT_PROPERTY_OVERRIDES += \

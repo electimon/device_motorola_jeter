@@ -18,7 +18,7 @@ LOCAL_PATH := $(call my-dir)
 # Camera
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := gpu_mapper_shim.cpp
-LOCAL_SHARED_LIBRARIES := libgui libutils
+LOCAL_SHARED_LIBRARIES := libui libutils
 LOCAL_MODULE := libgpu_mapper_shim
 LOCAL_MODULE_TAGS := optional
 LOCAL_PROPRIETARY_MODULE := true

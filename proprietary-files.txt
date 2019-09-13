@@ -1092,7 +1092,6 @@ etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 -framework/QtiTelephonyServicelibrary.jar|94208d7e8e94db498112712c8d0eb551d23e6318
 -framework/qcrilhook.jar|f4e4a04bb4bd2015d8426146e4f59b341a0c7b5a
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|a741ad9bd64a9d87048b43eaddef03d239b777a2
 vendor/bin/ATFWD-daemon|4037c68c25ef57e1c7637826f3d2b9c5600f0c7a
 vendor/bin/netmgrd|6e89c3eb89ba97a4d976b3249ee8991712906bf3
 vendor/bin/qti|5236c9b34a28a72a502f7ef2be6d95e39533dd00
@@ -1161,6 +1160,9 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so|2d01b6790cc97320c5d111e4633b8a
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so|6895eb1e2f31b1be4e81c5bb0c8fc3674bda8120
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|7d045e3d05ce075539a6d220628a21351e4f345d
 vendor/radio/qcril_database/qcril.db|091e6580d99bfb8d6561b980c58733b61a9f44c9
+
+# RIL - from mata QP1A.190711.107
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|956a4017d0ba7f68e6d225e57b40d3b2bcbb4837
 
 # MOTO RIL - from deen_sprout - PPKS29.68-16-33-3
 vendor/bin/qmi_motext_hook|1fdc109e99d61a65795aed55eb7447604f002b8c

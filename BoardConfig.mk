@@ -181,7 +181,7 @@ TARGET_RIL_VARIANT := caf
 VENDOR_SECURITY_PATCH := 2019-03-01
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Treble

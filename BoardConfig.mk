@@ -142,6 +142,10 @@ TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
+# NFC / ODM
+ODM_MANIFEST_SKUS := nfc
+ODM_MANIFEST_NFC_FILES := device/motorola/jeter/odm_manifest_nfc.xml
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4

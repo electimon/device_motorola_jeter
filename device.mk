@@ -175,6 +175,10 @@ PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
 
+# Init
+PRODUCT_PACKAGES += \
+    init.device.rc
+
 # IPA Manager
 PRODUCT_PACKAGES += \
     ipacm \
@@ -229,6 +233,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     android.hardware.nfc@1.1-service \
     android.hardware.secure_element@1.1-service-disabled
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
 
 # OMX
 PRODUCT_PACKAGES += \

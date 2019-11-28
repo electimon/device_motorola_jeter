@@ -1023,6 +1023,10 @@ vendor/lib/libvqzip.so|0b906db131e99cd5460b8a72d05e86721243de95
 -vendor/lib/libMpeg4SwEncoder.so|ac4aaba9259a4868ad29a96c07a5814e1f569d47
 -vendor/lib/libOmxSwVencMpeg4.so|ed4200c66e3a185dd13952b3ccf6cc2524ded519
 
+# NFC - from LA.UM.8.6.r1-04600-89xx.0
+vendor/lib/libpn553_fw.so
+vendor/lib64/libpn553_fw.so
+
 # Perf - from D1C - PKQ1.181105.001
 vendor/bin/msm_irqbalance|bf933b58332cf94fe4a2072bc3e976a6a82efe3c
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|1be5ae2497eea201367010ffeb7d9bf4b9f6728e

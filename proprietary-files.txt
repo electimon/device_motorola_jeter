@@ -809,7 +809,6 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|b1c83ea1046e5e356e0b0a74b99d7a3
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|cbc75b554051298020506d85427a1aa70346fbd5
 vendor/lib64/vendor.qti.latency@2.0.so|15e50ce40e210993343406947dd2c959920f40c8
 
-
 # DRM and SEE - from daisy_sprout - PKQ1.180917.001/V10.0.1.0.PDLMIFJ
 vendor/bin/qseecomd|8ba233a028eec55d2f57ed7c85c6751e8f5c5d16
 vendor/lib64/libGPreqcancel.so|942e96e6c1706b52e0b2f898c5947f16f8612994
@@ -832,7 +831,7 @@ vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|14d52254917f8b7e5c02754fc259
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|15460dcdadee96d7e39b28d2b8bcac61b4e8d80a
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|de7f221d00072f7b659493feb71e538e0da5541d
 
-# Fingerprint - from daisy_sprout - PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Fingerprint - from deen_sprout - PPKS29.68-16-33-3
 lib64/vendor.egistec.hardware.fingerprint@2.0.so|b99a10b68e927dd4a32f7f8c55f30f56465e4919
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets|1d1ed9935abba518a84bc504761fd912c014e772
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc|dbc7ba996d78e8470add38aca9b2966f703beb15
@@ -1251,7 +1250,7 @@ vendor/lib64/libdisp-aba.so|2b9a85de013e956f1adfaf00146a865efb7077c4
 vendor/lib64/vendor.display.color@1.0.so|ec75654927c63b74c7f8d0760fa463f0e8287f25
 vendor/lib64/vendor.display.postproc@1.0.so|b95e9f990a207d5c62db4d66f5aaf088adc02ba8
 
-# Sensors - from daisy_sprout - PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Sensors - from deen_sprout - PPKS29.68-16-33-3
 vendor/bin/capsense_reset|4b5c900b12d15402df8f5f7b9e199f8e63b3f307
 vendor/bin/sensors.qti|dc38040e13bdb2690f6fcf739d4f04cded32fe66
 vendor/lib/hw/activity_recognition.msm8953.so:vendor/lib/hw/activity_recognition.msm8937.so|eadca8d4e8c68387b056cb7b3e43b8058d7bd661
@@ -1293,7 +1292,6 @@ vendor/lib64/libwvhidl.so|5fc3e2c75a2629dffeaca9fb7c98b8bf6d7ddc78
 
 # WIFI - from deen_sprout - PPKS29.68-16-33-3
 vendor/bin/cnss-daemon|e07e36d89bb7e62c6183f36e9f4531a318afc37d
-
 
 # WiFi Display - from D1C - PKQ1.181105.001
 bin/wfdservice|edeb291221024401cbae69c2fa4e58733b7efc4c

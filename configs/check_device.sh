@@ -15,20 +15,3 @@ else
     rm /vendor/etc/permissions/android.hardware.sensor.compass.xml
     rm /vendor/etc/permissions/android.hardware.sensor.gyroscope.xml
 fi
-
-    # Replace EGL for rhannah variants
-if [ "$SKU" = "XT1924-1" ] || [ "$SKU" = "XT1924-4" ] || [ "$SKU" = "XT1924-5" ]; then
-    mv /vendor/lib/egl/libEGL_adreno_8917.so /vendor/lib/egl/libEGL_adreno.so
-    mv /vendor/lib/egl/libGLESv1_CM_adreno_8917.so /vendor/lib/egl/libGLESv1_CM_adreno.so
-    mv /vendor/lib/egl/libGLESv2_adreno_8917.so /vendor/lib/egl/libGLESv2_adreno.so
-    mv /vendor/lib64/egl/libEGL_adreno_8917.so /vendor/lib64/egl/libEGL_adreno.so
-    mv /vendor/lib64/egl/libGLESv1_CM_adreno_8917.so /vendor/lib64/egl/libGLESv1_CM_adreno.so
-    mv /vendor/lib64/egl/libGLESv2_adreno_8917.so /vendor/lib64/egl/libGLESv2_adreno.so
-else
-    rm /vendor/lib/egl/libEGL_adreno_8917.so
-    rm /vendor/lib/egl/libGLESv1_CM_adreno_8917.so
-    rm /vendor/lib/egl/libGLESv2_adreno_8917.so
-    rm /vendor/lib64/egl/libEGL_adreno_8917.so
-    rm /vendor/lib64/egl/libGLESv1_CM_adreno_8917.so
-    rm /vendor/lib64/egl/libGLESv2_adreno_8917.so
-fi

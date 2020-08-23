@@ -3,7 +3,7 @@
 SKU=`getprop ro.boot.hardware.sku`
 
 if [ "$SKU" = "XT1924-6" ] || [ "$SKU" = "XT1924-7" ] || [ "$SKU" = "XT1924-8" ]; then
-    rm -rf /system/priv-app/MotoDoze
+    rm -rf /system_root/system/priv-app/MotoDoze
     rm /vendor/etc/audio_platform_info_ahannah.xml
     rm /vendor/etc/mixer_paths_ahannah.xml
     rm /vendor/etc/sensors/sensor_def_qcomdev_ahannah.conf

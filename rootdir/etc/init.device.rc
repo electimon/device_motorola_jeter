@@ -148,3 +148,14 @@ service mmi-laser-sh /vendor/bin/init.mmi.laser.sh
     class core
     user root
     oneshot
+
+service vendor.sensors.qti /vendor/bin/sensors.qti
+    class core
+    user system
+    group system
+    disabled
+
+service sensor-sh /vendor/bin/init.qcom.sensors.sh
+    class core
+    user root
+    oneshot

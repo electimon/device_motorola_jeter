@@ -686,9 +686,9 @@ vendor/lib/libmmcamera_s5k4h7.so
 vendor/lib/libmmcamera_s5k4h8.so
 
 # Display calibration
-vendor/etc/qdcm_calib_data_mipi_mot_video_djn_hd_599.xml
-vendor/etc/qdcm_calib_data_mipi_mot_video_djn_hd_600.xml
-vendor/etc/qdcm_calib_data_mipi_mot_video_tianma_hd_599.xml
+vendor/etc/qdcm_calib_data_mipi_mot_video_djn_hd_599.xml|315c54a3967e053782571d6adb08f01048675dc2
+vendor/etc/qdcm_calib_data_mipi_mot_video_djn_hd_600.xml|689a49022d016326cc3fa875bbde2392b61290d3
+vendor/etc/qdcm_calib_data_mipi_mot_video_tianma_hd_599.xml|315c54a3967e053782571d6adb08f01048675dc2
 
 # Fingerprint - from deen_sprout - QPKS30.54-22-12
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets|bc775f7e2e9afa615d7b90d9076b0e82a885a917

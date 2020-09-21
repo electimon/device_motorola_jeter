@@ -693,18 +693,18 @@ vendor/lib64/libets_fp_et5.so|a629467d966b679eeec75f009748abf61b63b1b6
 vendor/lib64/libets_teeclient.so|5c800a3042828c73f068c35b4c6ddd9d9f6fe48a
 vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so|c39c16ac4c38a5aa8580dad4d2f066e0a5872d98
 
-# Gatekeeper - from deen_sprout - PPKS29.68-16-36-13
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|eeb4ba9eacb57c958051a47d307968254ee081d0
+# Gatekeeper - from deen_sprout - QPKS30.54-22-12
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|bea6d682011b465a08b9085f7b5e69b965743eee
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|8c5a8f0bec5942dc3527cff95ae09959234e9e58
 
-# Keymaster - from deen_sprout - PPKS29.68-16-36-13
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|023a0e237fbc068a3191e91e5a1ec0ea5831d52b
+# Keymaster - from deen_sprout - QPKS30.54-22-12
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|ac0aabf396888c9dc8b6dc23291e190daa943e24
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|6a04ddf5b92e97596e3764d2474ca8c26fa80139
 vendor/lib64/libkeymasterdeviceutils.so|5dcb23eb145570876dd1f4f05ca56a114bc9de56
 vendor/lib64/libkeymasterprovision.so|3eb6d2ed05871605cf020bf8459296aea2453f90
-vendor/lib64/libkeymasterutils.so|45cc1a92cf151c56d940c6a7e23d64a207357b9a
+vendor/lib64/libkeymasterutils.so|75d58b3f6aea66220c3352e4bef33dad9333fd1d
 
 # Sensors - from deen_sprout - QPKS30.54-22-11
 vendor/bin/sensors.qti|5f43a818c4c682956bed031b4fc9583d42b7f70a

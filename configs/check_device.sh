@@ -15,3 +15,9 @@ else
     rm /vendor/etc/permissions/android.hardware.sensor.compass.xml
     rm /vendor/etc/permissions/android.hardware.sensor.gyroscope.xml
 fi
+
+if [ "$SKU" = "XT1924-1" ] || [ "$SKU" = "XT1924-4" ] || [ "$SKU" = "XT1924-5" ]; then
+    rm /vendor/etc/permissions/android.hardware.vulkan.compute-0.xml
+    rm /vendor/etc/permissions/android.hardware.vulkan.level-0.xml
+    rm /vendor/etc/permissions/android.hardware.vulkan.version-1_1.xml
+fi

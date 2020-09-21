@@ -693,7 +693,7 @@ vendor/etc/qdcm_calib_data_mipi_mot_video_tianma_hd_599.xml|315c54a3967e05378257
 # Fingerprint - from deen_sprout - QPKS30.54-22-12
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets|bc775f7e2e9afa615d7b90d9076b0e82a885a917
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc|dbc7ba996d78e8470add38aca9b2966f703beb15
-vendor/etc/init/init.ets.rc|9129644382c75baa1cb59ad2efc4f69520bdb3cb
+vendor/etc/init/init.ets.rc|f6c80fe2a7881709daf7089025cd54ae4399fc3d
 vendor/lib64/libets_fp_et5.so|a629467d966b679eeec75f009748abf61b63b1b6
 vendor/lib64/libets_teeclient.so|5c800a3042828c73f068c35b4c6ddd9d9f6fe48a
 vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so|c39c16ac4c38a5aa8580dad4d2f066e0a5872d98

@@ -31,7 +31,7 @@ vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libjscore.so|bffdc687f62576a35e768eb5a311ac12399a46a4
-vendor/lib/libjustshoot.so
+vendor/lib/libjustshoot.so|26b27b22c67f95b083aee248ecc647cf11fc9397
 vendor/lib/libmm-qcamera.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so

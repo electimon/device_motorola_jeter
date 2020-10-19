@@ -4,7 +4,7 @@
  * Copyright (C) 2019, Harshit Jain
  */
 
-#define LOG_TAG "android.hardware.light@2.0-service.hannah"
+#define LOG_TAG "android.hardware.light@2.0-service.jeter"
 
 #include <log/log.h>
 #include <fstream>
@@ -47,35 +47,35 @@ static inline bool isLit(const LightState& state) {
 /*
  * Device specific methods
  */
-static void hannahBacklight(const LightState& state) {
+static void jeterBacklight(const LightState& state) {
     uint32_t brightness = state.color & 0xFF;
     set(LCD_LED BRIGHTNESS, brightness);
 }
 
-static inline void hannahLed(const LightState& state, uint32_t pattern) {
+static inline void jeterLed(const LightState& state, uint32_t pattern) {
     isLit(state) ? set(WHITE BRIGHTNESS, pattern) : set(WHITE BRIGHTNESS, 0);
 }
 
-static void hannahNotification(const LightState& state) {
+static void jeterNotification(const LightState& state) {
     /* Fast blink */
-    hannahLed(state, 1);
+    jeterLed(state, 1);
 }
 
-static void hannahAttention(const LightState& state) {
+static void jeterAttention(const LightState& state) {
     /* Slow blink */
-    hannahLed(state, 2);
+    jeterLed(state, 2);
 }
 
-static void hannahChargingNotification(const LightState& state) {
+static void jeterChargingNotification(const LightState& state) {
     /* Steady Led */
-    hannahLed(state, 3);
+    jeterLed(state, 3);
 }
 
 static std::map<Type, std::function<void(const LightState&)>> lights = {
-    {Type::BACKLIGHT, hannahBacklight},
-    {Type::NOTIFICATIONS, hannahNotification},
-    {Type::BATTERY, hannahChargingNotification},
-    {Type::ATTENTION, hannahAttention},
+    {Type::BACKLIGHT, jeterBacklight},
+    {Type::NOTIFICATIONS, jeterNotification},
+    {Type::BATTERY, jeterChargingNotification},
+    {Type::ATTENTION, jeterAttention},
 };
 
 Light::Light() {}

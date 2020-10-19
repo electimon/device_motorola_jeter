@@ -2,22 +2,18 @@
 
 sku=`getprop ro.boot.hardware.sku`
 
-if [ "$sku" = "XT1924-1" ] || [ "$sku" = "XT1924-3" ] || [ "$sku" = "XT1924-4" ] || [ "$sku" = "XT1924-5" ]; then
-    mv /vendor/etc/audio_platform_info_ahannah.xml /vendor/etc/audio_platform_info.xml
-    mv /vendor/etc/mixer_paths_ahannah.xml /vendor/etc/mixer_paths.xml
-    mv /vendor/etc/sensors/sensor_def_qcomdev_ahannah.conf /vendor/etc/sensors/sensor_def_qcomdev.conf
-    rm -rf /vendor/app/LineageActions
-    rm /vendor/etc/permissions/android.hardware.sensor.compass.xml
-    rm /vendor/etc/permissions/android.hardware.sensor.gyroscope.xml
+if [ "$sku" = "XT1922-5" ]; then
+    mv /vendor/etc/audio_platform_info_aljeter.xml /vendor/etc/audio_platform_info.xml
+    mv /vendor/etc/mixer_paths_aljeter.xml /vendor/etc/mixer_paths.xml
+    mv /vendor/etc/sensors/sensor_def_qcomdev_aljeter.conf /vendor/etc/sensors/sensor_def_qcomdev.conf
 else
-    rm -rf /system/priv-app/MotoDoze
-    rm /vendor/etc/audio_platform_info_ahannah.xml
-    rm /vendor/etc/mixer_paths_ahannah.xml
-    rm /vendor/etc/sensors/sensor_def_qcomdev_ahannah.conf
+    rm /vendor/etc/audio_platform_info_aljeter.xml
+    rm /vendor/etc/mixer_paths_aljeter.xml
+    rm /vendor/etc/sensors/sensor_def_qcomdev_aljeter.conf
 fi
 
-    # Replace EGL for rhannah variants
-if [ "$sku" = "XT1924-1" ] || [ "$sku" = "XT1924-4" ] || [ "$sku" = "XT1924-5" ]; then
+# Replace EGL for jeter variants
+if [ "$sku" = "XT1922-7" ] || [ "$sku" = "XT1922-9" ]; then
     mv /vendor/lib/egl/libEGL_adreno_8917.so /vendor/lib/egl/libEGL_adreno.so
     mv /vendor/lib/egl/libGLESv1_CM_adreno_8917.so /vendor/lib/egl/libGLESv1_CM_adreno.so
     mv /vendor/lib/egl/libGLESv2_adreno_8917.so /vendor/lib/egl/libGLESv2_adreno.so

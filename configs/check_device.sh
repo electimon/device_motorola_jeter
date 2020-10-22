@@ -2,7 +2,7 @@
 
 sku=`getprop ro.boot.hardware.sku`
 
-if [ "$sku" = "XT1922-5" ]; then
+if [ "$sku" = "XT1922-10" ] || [ "$sku" = "XT1922-5" ] || [ "$sku" = "XT1922-4" ] || [ "$sku" = "XT1922-2" ]; then
     mv /vendor/etc/audio_platform_info_aljeter.xml /vendor/etc/audio_platform_info.xml
     mv /vendor/etc/mixer_paths_aljeter.xml /vendor/etc/mixer_paths.xml
     mv /vendor/etc/sensors/sensor_def_qcomdev_aljeter.conf /vendor/etc/sensors/sensor_def_qcomdev.conf

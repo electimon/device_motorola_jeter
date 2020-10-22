@@ -365,8 +365,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libgpu_mapper_shim \
     libjustshoot_shim \
-    libqsapshim \
-    libshim_ril
+    libqsapshim
 
 # Thermal
 PRODUCT_PACKAGES += \

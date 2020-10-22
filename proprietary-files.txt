@@ -44,7 +44,7 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6c
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|a6fa0b97864e41f36c7d859612d2b24c14bc1597
 vendor/lib64/libbtnv.so|f467a39938b8e76e3dea295ef412e69b6402254f
 vendor/lib64/libbt-hidlclient.so|e7cc68021ff2a38728a50c92914420ba61d2c5c3
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|b72b6bc0f79ef8289f4b543910e7e2d91961831f
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|b7358cd2a52e6e0798efa01f9595f8b8e8f7b152
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|ce9b89df917622cf1e0e58aa3b3be6e410c4c2d7
 
 # Motorola Camera - from aljeter - PPP29.55-25
@@ -838,6 +838,19 @@ vendor/lib64/libets_fp_et5.so|536e9097b3f188b90c78882e8e72f3e2f8125666
 vendor/lib64/libets_teeclient.so|1021ffc65bd48e405a7c05c1cb3025317f5157c1
 vendor/lib64/vendor.egistec.hardware.fingerprint@2.0_vendor.so|70611a99139820e21ccdf218940eb68242cd482c
 
+# FM - from deen_sprout - QPKS30.54-22-7
+lib/fm_helium.so|30a45c8519402c8bd750a006b7fd79600f71af9b
+lib/libfm-hci.so|e48900e000ab0d3af173f43fcb0b6a4a756543ed
+lib64/fm_helium.so|b796c4d16f4706277cffca32212fb7d9f342f9f8
+lib64/libfm-hci.so|0b944b37744770498132b98753758ac946016691
+-product/lib/vendor.qti.hardware.fm@1.0.so|875d9c252d707ecbe9e94036537b737fbc2187e3
+-product/lib64/vendor.qti.hardware.fm@1.0.so|b7358cd2a52e6e0798efa01f9595f8b8e8f7b152
+vendor/bin/fm_qsoc_patches|4e0d9e7feb7b6ea693be721650406a4c825e4a58
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|fb52f51872e2902a9127628fa337552324601ccc
+vendor/lib/vendor.qti.hardware.fm@1.0.so|875d9c252d707ecbe9e94036537b737fbc2187e3
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|08fe082d3d05cf8c68269a090224f2efcf84e45a
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|b7358cd2a52e6e0798efa01f9595f8b8e8f7b152
+
 # Gatekeeper - from daisy_sprout - PKQ1.180917.001/V10.0.1.0.PDLMIFJ
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|eeb4ba9eacb57c958051a47d307968254ee081d0
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
@@ -1112,7 +1125,7 @@ vendor/bin/tftp_server|ff4d12b015f53b1b139a3cc10e4ca3004450f34c
 vendor/bin/hw/qcrild|a6589c8e8d3a20b604811f6b4c4457cf4d2c96b2
 vendor/etc/data/dsi_config.xml|f4861831fcb21d43e2a9ca12519155ebb8ac1407
 vendor/etc/data/netmgr_config.xml|23ecb12d506ac0334e0ab8e498cda3b07b478fe0
-vendor/etc/init/qcrild.rc|70957d1fa7c900097cb2d291b5c962ff4e4af621
+vendor/etc/init/qcrild.rc|fd5c77effea7d3c1220abbd51bd8339e1210ac50
 vendor/lib/libmdmdetect.so|ec7f736d0d80b594ed162744f85a686e6437c30f
 vendor/lib/libqcmaputils.so|d7b6183716bebb58ede8ef6c22e8183c1b70c673
 vendor/lib/libqrtr.so|d66a7e48e4058cdf490315e97d56155d904a3cfb
@@ -1258,7 +1271,7 @@ lib/libwfduibcsink.so|2573a8b30d8c774d415ddfa788d4a5b8b12f4c1b
 lib/libwfduibcsinkinterface.so|cb623b0cc9e84adc6315a45d7c3315be62b617e7
 lib/libwfduibcsrc.so|78bc3258deb8f818c3392d5accdf8e7aac729fdc
 lib/libwfduibcsrcinterface.so|d5da17663c07ff1845f8f48feebf584545bb4b34
-lib/com.qualcomm.qti.wifidisplayhal@1.0.so:vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
+lib/com.qualcomm.qti.wifidisplayhal@1.0.so:vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so|93487a83a35f0fa3fe37445edd3ff22fcc52e4fc
 lib64/libwfdclient.so|c69712162493bdaa8833b5aae342ee4f9b0c2408
 lib64/libwfdnative.so|6267b320f26870f73523032708eb38cfd1c815a9
 -priv-app/WfdService/WfdService.apk|8c9bd0a9406c287370316b6a5b5bfe69921c3dac

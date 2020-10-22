@@ -1258,6 +1258,7 @@ lib/libwfduibcsink.so|2573a8b30d8c774d415ddfa788d4a5b8b12f4c1b
 lib/libwfduibcsinkinterface.so|cb623b0cc9e84adc6315a45d7c3315be62b617e7
 lib/libwfduibcsrc.so|78bc3258deb8f818c3392d5accdf8e7aac729fdc
 lib/libwfduibcsrcinterface.so|d5da17663c07ff1845f8f48feebf584545bb4b34
+lib/com.qualcomm.qti.wifidisplayhal@1.0.so:vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib64/libwfdclient.so|c69712162493bdaa8833b5aae342ee4f9b0c2408
 lib64/libwfdnative.so|6267b320f26870f73523032708eb38cfd1c815a9
 -priv-app/WfdService/WfdService.apk|8c9bd0a9406c287370316b6a5b5bfe69921c3dac

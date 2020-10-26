@@ -24,10 +24,10 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.name
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="hannah_t-user 8.0.0 OCPS27.91-150-8 2 release-keys" \
+    PRIVATE_BUILD_DESC="jeter-user 9 PPPS29.118-57-5 d3be1 release-keys" \
     PRODUCT_NAME="jeter"
 
-BUILD_FINGERPRINT := motorola/hannah_t/hannah:8.0.0/OCP27.91-150-8/2:user/release-keys
+BUILD_FINGERPRINT := motorola/jeter/jeter:9/PPPS29.118-57-5/d3be1:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 

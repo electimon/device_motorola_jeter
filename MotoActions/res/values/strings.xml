@@ -90,11 +90,6 @@
     <string name="haptic_feedback">Haptic feedback</string>
     <string name="haptic_feedback_summary">Vibrate when a touchscreen gesture is detected</string>
 
-    <!-- Spectrum Profiles -->
-    <string name="spectrum_title">Kernel Profile</string>
-    <string name="spectrum_summary">Choose your kernel profile</string>
-    <string name="spectrum_dialogTitle">Choose your kernel profile</string>
-
     <!-- Kcal -->
     <string name="kcal_title">Display Calibration</string>
     <string name="kcal_summary">Display color calibration</string>

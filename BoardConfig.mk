@@ -137,7 +137,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 
 TARGET_KERNEL_CONFIG := jeter_defconfig
-TARGET_KERNEL_SOURCE := kernel/motorola/jeter
+TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true

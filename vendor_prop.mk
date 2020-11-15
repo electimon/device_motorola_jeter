@@ -120,6 +120,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
     ro.vendor.qti.sys.fw.bg_apps_limit=60
 
+# Play store
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.clientidbase=android-motorola \
+    ro.com.google.clientidbase.am=android-motorola \
+    ro.com.google.clientidbase.gmm=android-motorola \
+    ro.com.google.clientidbase.ms=android-motorola \
+    ro.com.google.clientidbase.yt=android-motorola
+
 # Priv-app permissions whitelist
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=disable
@@ -165,7 +173,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     telephony.lteOnCdmaDevice=1 \
     ro.build.vendorprefix=/vendor
 
-#,Sensors
+# Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.sar_sensor=1 \
     ro.hardware.sensors=jeter \

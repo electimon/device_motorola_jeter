@@ -14,7 +14,7 @@ fi
 set -e
 
 # Required!
-export DEVICE=hannah
+export DEVICE=jeter
 export DEVICE_COMMON=msm8937-common
 export VENDOR=motorola
 

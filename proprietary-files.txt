@@ -829,6 +829,12 @@ vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|082ed7aabe19fd357d03f22045a1
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|15460dcdadee96d7e39b28d2b8bcac61b4e8d80a
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|95e3c11e8877b3716791e1b93d5f905208ca32ef
 
+# ESE-Powermanager
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
+vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
+vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so
+vendor/lib/vendor.qti.esepowermanager@1.0.so
+
 # Fingerprint - from deen_sprout - PPKS29.68-16-33-3
 lib64/vendor.egistec.hardware.fingerprint@2.0.so|c80d9fd74a5cd3974530cec87561a36748b0c22d
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets|cd2be55c8cb8c66316775dd1148468a0635c7fd5

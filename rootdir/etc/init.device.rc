@@ -36,6 +36,7 @@ on boot && property:ro.boot.product.hardware.sku=n
 
 service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
      interface android.hardware.nfc@1.2::INfc default
+     override
      class hal
      user nfc
      group nfc

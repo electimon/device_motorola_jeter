@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_jeter.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_jeter-user \
+    lineage_jeter-userdebug \
+    lineage_jeter-eng \

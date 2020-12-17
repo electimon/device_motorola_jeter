@@ -8,3 +8,6 @@ service vendor.sensor-sh /vendor/bin/init.qcom.sensors.sh
     class core
     user root
     oneshot
+
+on property:ro.boot.hardware.sku=XT1922-2
+    setprop ro.boot.product.hardware.sku n

@@ -10,4 +10,23 @@ service vendor.sensor-sh /vendor/bin/init.qcom.sensors.sh
     oneshot
 
 on property:ro.boot.hardware.sku=XT1922-2
+    setprop ro.opengles.version 196610
     setprop ro.boot.product.hardware.sku n
+
+on property:ro.boot.hardware.sku=XT1922-4
+    setprop ro.opengles.version 196610
+
+on property:ro.boot.hardware.sku=XT1922-5
+    setprop ro.opengles.version 196610
+
+on property:ro.boot.hardware.sku=XT1922-10
+    setprop ro.opengles.version 196610
+
+on property:ro.boot.hardware.sku=XT1922-6
+    setprop ro.opengles.version 196608
+
+on property:ro.boot.hardware.sku=XT1922-7
+    setprop ro.opengles.version 196608
+
+on property:ro.boot.hardware.sku=XT1922-9
+    setprop ro.opengles.version 196608

@@ -1,0 +1,10 @@
+service vendor.sensors.qti /vendor/bin/sensors.qti
+    class core
+    user system
+    group system
+    disabled
+
+service vendor.sensor-sh /vendor/bin/init.qcom.sensors.sh
+    class core
+    user root
+    oneshot

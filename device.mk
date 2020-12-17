@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    init.device.rc \
     init.qcom.sensors.sh
 
 # Releasetools script

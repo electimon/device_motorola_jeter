@@ -32,9 +32,9 @@ on property:ro.boot.hardware.sku=XT1922-9
     setprop ro.opengles.version 196608
 
 on boot && property:ro.boot.product.hardware.sku=n
-     start nfc_hal_service
+     start vendor.nfc_hal_service
 
-service nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
      interface android.hardware.nfc@1.0::INfc default
      interface android.hardware.nfc@1.1::INfc default
      interface android.hardware.nfc@1.2::INfc default
